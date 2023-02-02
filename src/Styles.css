@@ -151,6 +151,20 @@
     border-radius: 20px;
 }
 
+/* BLOG PAGE STYLING */
+#blogs-container{
+    margin: 60px 100px;
+}
+
+.blog-box{
+    display: flex;
+    justify-content: space-around;
+}
+
+.blog-img{
+    width: 320px;
+    height: 200px;
+}
 
 
 
