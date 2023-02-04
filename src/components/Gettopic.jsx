@@ -10,7 +10,7 @@ function Gettopic() {
   }, [topic])
   
   return (
-    <div>
+    <div id="gettopic">
         <h1>Ask About Your Topic Here</h1>
         <div className="topic-box">
             <input type="text" className="topic-input" placeholder="Enter your topic" onChange={(e)=>{setTopic(e.target.value)}}/>

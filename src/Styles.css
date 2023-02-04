@@ -139,6 +139,10 @@
 }
 
 /* GET TOPIC */
+#gettopic{
+    margin-top: -160px;
+}
+
 .topic-box{
     margin: 0px;
 }
