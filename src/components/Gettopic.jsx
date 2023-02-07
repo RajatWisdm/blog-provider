@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom';
 
 function Gettopic() {
-  const [topic, setTopic] = useState("qwe")
+  const [topic, setTopic] = useState("")
   const navigate = useNavigate();
   const handleOnClick = () => navigate(`/blogs?topic=${topic}`)
   useEffect(() => {

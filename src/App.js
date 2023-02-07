@@ -8,14 +8,14 @@ import Home from './components/Home';
 function App() {
   return (
     <div className="App">
-      <Router>
-        <Header/>
-        <Routes>
-          <Route exact={true} path="/" element={<Home/>}/>
-          <Route path="/blogs" element={<><Blogs/></>}></Route>
-          {/* <Route path="*"><Notfound/></Route> */}
-        </Routes>
-      </Router>
+    <Router>
+      <Header/>
+      <Routes>
+        <Route exact={true} path="/" element={<Home/>}/>
+        <Route path="/blogs" element={<><Blogs/></>}></Route>
+        {/* <Route path="*"><Notfound/></Route> */}
+      </Routes>
+    </Router>
     </div>
   );
 }

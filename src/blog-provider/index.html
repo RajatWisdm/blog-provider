@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <nav>
+            <div id="nav-box">
+                <div id="nav-items-1">
+                    <a href="./">HOME</a>
+                    <a href="/blogs?topic=computer">ABOUT</a>
+                    <a href="#">GET ARTICLE</a>
+                    <a href="#">CONTACT US</a>
+                </div>
+            </div>
+            <div class="ham-container">
+                <input type="checkbox" name="" id="" class="check" />
+                <ul class="menu-items">
+                    <li><a href="#" target="_blank">Destinations</a></li>
+                    <li><a href="#" target="_blank">Hotels</a></li>
+                    <li><a href="#" target="_blank">Flights</a></li>
+                    <li><a href="#" target="_blank">Bookings</a></li>
+                  </ul>
+                <div class="ham-menu">
+                    <span class="line line1"></span>
+                    <span class="line line2"></span>
+                    <span class="line line3"></span>
+                </div>
+            </div>
+        </nav>
+
+        
+    </header>
+
+    <div>
+        <div id="poster">
+            <div id="poster-content">
+                <div id="poster-heading">
+                    <h2>Best Blogs On Your Desired Topic</h2>
+                    <h1>Don't know where to start writing?</h1>
+                </div>
+                <p id="poster-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, vero? Atque suscipit accusantium omnis eius fugiat error facilis officia molestiae ad magnam quo, aut, laudantium exercitationem laborum modi corrupti harum.</p>
+            </div>
+            <div id="poster-img">
+                <img src="static/posterbg.png" alt="" />
+            </div>
+        </div>
+    </div>
+
+    <div id="gettopic">
+        <h1>Ask About Your Topic Here</h1>
+        <div class="topic-box">
+            <form action="./blogs.html" method="get">
+                <input type="text" class="topic-input" placeholder="Enter your topic" name="topic"/>
+                <button class="topic-btn btn btn-warning" type="submit">Get Blogs</button>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</html>
