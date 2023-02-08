@@ -8,8 +8,6 @@ function Blogs() {
   const topic = new URLSearchParams(search).get('topic');
   const [blogs, setBlogs] = useState([])
     useEffect(() => {
-        const query = "india"
-        console.log(query);
         // GET request using fetch inside useEffect React hook
         fetch(`https://newsapi.org/v2/everything?q=${topic}&sortBy=publishedAt&apiKey=${apiKey}`)
             .then(response => response.json())
