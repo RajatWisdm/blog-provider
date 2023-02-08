@@ -24,15 +24,15 @@ function Blogs() {
       <div id="blogs-container" className="my-10">
         {
           blogs.map((blog)=>
-            <div className="blog-box my-10">
+            <div className="blog-box">
               <img className="blog-img" src={blog["urlToImage"]} alt=""/>
               <div className="blog-text">
-                <h2>{blog["title"]}</h2>
+                <a href={blog["url"]} target="_blank" rel="noreferrer" className="cursor-pointer blog-heading"><h2>{blog["title"]}</h2></a>
                 <p>{blog["content"]}</p>
               </div>
               <div className="plaga-btn">
-                <button className="btn btn-warning mx-4">Check Plagiarism</button>
-                <button className="btn btn-primary">Remove Plagiarism</button>
+                <a href="https://www.duplichecker.com/" target="_blank" rel="noreferrer"><button className="btn btn-warning mx-4">Check Plagiarism</button></a>
+                <a href="https://www.plagiarismremover.net/" target="_blank" rel="noreferrer"><button className="btn btn-primary">Remove Plagiarism</button></a>
               </div>
             </div>
           )

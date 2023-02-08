@@ -163,6 +163,7 @@
 .blog-box{
     display: flex;
     justify-content: space-around;
+    margin-top: 48px;
 }
 
 .blog-img{
@@ -170,6 +171,14 @@
     height: 200px;
 }
 
+.blog-heading{
+    text-decoration: none;
+    color: #000;
+}
+
+.plaga-btn a button{
+    margin-top: 6px;
+}
 
 
 @media(min-width: 940px){
@@ -317,5 +326,9 @@
 
     .poster-plain{
         display: none;
+    }
+
+    .blog-box{
+        display: block;
     }
 }
