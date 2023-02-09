@@ -35,15 +35,15 @@ function Contact() {
                             <h4>Contact Info</h4>
                             <div className="d-flex info_single align-items-center">
                                 <i className="fas fa-headset"></i>
-                                <span>+91 8009 054294</span>
+                                <span>+91 99999 99999</span>
                             </div>
                             <div className="d-flex info_single align-items-center">
                                 <i className="fas fa-envelope-open-text"></i>
-                                <span>info@flightmantra.com</span>
+                                <span>info@blogprovider.com</span>
                             </div>
                             <div className="d-flex info_single align-items-center">
                                 <i className="fas fa-map-marked-alt"></i>
-                                <span>1000+ Travel partners and 65+ Service city across India, USA, Canada & UAE</span>
+                                <span>1000+ customers across India, USA, Canada & UAE</span>
                             </div>
             
                         </div>

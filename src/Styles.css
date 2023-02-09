@@ -472,6 +472,21 @@
       overflow: hidden;
   }
 
+  .contact_inner{
+    color: #fff;
+  }
+
+  /* RESPONSIVE CODE FOR CONTACT */
+@media(max-width: 940px){
+    .contact_inner{
+        display: none;
+    }
+
+    .contact_field{
+        padding: 0;
+    }
+}
+
 
   /* FOOTER */
   .footer-box{
